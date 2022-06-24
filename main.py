@@ -142,8 +142,8 @@ def main():
             
             if (do_click(images['empty_energy'], 1)):
                 h_num += 1
-                if (h_num == 4):
-                    if (check == False and h_num == 4):
+                if (h_num == 3):
+                    if (check == False and h_num == 3):
                         print("Lan 2 oke")
                         return 0
                     else:
